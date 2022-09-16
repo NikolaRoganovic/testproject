@@ -1,34 +1,19 @@
 {
-  "name": "mono-icons",
-  "version": "1.3.1",
-  "description": "The Mono icon font as a separate package.",
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Simple node.js app that servers \"hello world\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rimraf iconfont",
-    "optimize": "svgo -f svg --config .svgo.yml",
-    "icon-font": "icon-font-generator svg/*.svg -o iconfont -p mi --height 1000  --descent 128",
-    "prepare": "npm run clean && mkdirp iconfont && npm run icon-font && npm run optimize",
-    "start": "npm run prepare"
+    "test": "node index.js"
   },
-  "keywords": [
-    "icons",
-    "svg",
-    "icon set"
-  ],
-  "author": "Mono",
-  "license": "MIT",
-  "devDependencies": {
-    "icon-font-generator": "^2.1.10",
-    "svgo": "^1.3.2"
-  },
-  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mono-company/mono-icons.git"
+    "url": "git+https://github.com/NikolaRoganovic/testproject.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mono-company/mono-icons/issues"
+    "url": "https://github.com/NikolaRoganovic/testproject/issues"
   },
-  "homepage": "https://github.com/mono-company/mono-icons#readme"
+  "homepage": "https://github.com/NikolaRoganovic/testproject#readme"
 }
